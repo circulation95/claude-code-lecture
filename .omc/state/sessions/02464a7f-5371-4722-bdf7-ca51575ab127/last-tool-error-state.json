@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"$p = Get-Command psmux -ErrorAction SilentlyContinue; if ($p) { \\\"psmux found: $($p.Source)\\\" } else { \\\"psmux NOT on PATH\\\" }\\nwinget list --id ClemensMertins.PSmux 2>$null; winget list p...",
+  "error": "Exit code 255\npsmux NOT on PATH\r\n\r   - \r   \\ \r                                                                                                                        \r입력 조건과 일치하는 설치된 패키지를 찾을 수 없습니다.\r\n\r\n   - \r\n                                                                                                                        \r\n\r\n   -",
+  "timestamp": "2026-06-28T12:43:11.910Z",
+  "retry_count": 1
+}

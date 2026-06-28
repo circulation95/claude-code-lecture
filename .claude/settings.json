@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(c:\\\\claude-code-lecture\\\\.venv\\\\Scripts\\\\pip install anthropic ipykernel)",
+      "PowerShell(c:\\\\claude-code-lecture\\\\.venv\\\\Scripts\\\\python.exe -m ipykernel install --user --name claude-lecture --display-name \"Claude Lecture \\(.venv\\)\")",
+      "PowerShell(c:\\\\claude-code-lecture\\\\.venv\\\\Scripts\\\\pip install python-dotenv -q)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "active": true,
+  "started_at": "2026-06-28T12:52:53.856Z",
+  "current_phase": "ralplan",
+  "original_prompt": "/ralplan  \nflowchart TD\n    A[Issue 등록: hermes:queued] --> B[Hermes cron dispatcher 실행]\n\n    B --> C{global lock 획득 가능?}\n    C -- 실패 --> X[중단]\n    C -- 성공 --> D{hermes:in-progress 있음?}\n    D -- 있음 --> X\n    D -- 없음 --> E[Issue 1개 선택]\n\n    E --> F[Issue atomic claim<br/>queued 제거 + in-progress 추가 + comment]\n    F --> G[작업 브랜치/worktree 생성]\n    G --> H[Planner가 작업 계획 작성<br/>Issue comment 또는 docs/.hermes plan 기록]\n\n    H --> I[Worker/Claude Code 실행]\n    I --> J[수정 수행]\n    J --> K[테스트/Lint 실행]\n    ...",
+  "session_id": "cba2e141-8583-4cf7-b934-856eb97b6398",
+  "project_path": "c:\\claude-code-lecture",
+  "awaiting_confirmation": true,
+  "awaiting_confirmation_set_at": "2026-06-28T12:52:53.856Z",
+  "last_checked_at": "2026-06-28T12:52:53.856Z"
+}

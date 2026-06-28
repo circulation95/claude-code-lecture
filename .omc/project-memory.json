@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1782642755846,
+  "projectRoot": "c:\\claude-code-lecture",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "Part0-실리콘밸리_엔지니어의_하루": {
+      "path": "Part0-실리콘밸리_엔지니어의_하루",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782642755807,
+      "keyFiles": []
+    },
+    "Part1-Claude_Code_마스터하기": {
+      "path": "Part1-Claude_Code_마스터하기",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782642755808,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "Part0-실리콘밸리_엔지니어의_하루\\Ch02-AI_Native_엔지니어로_일하기\\exercises\\templates\\my-workflow.md",
+      "accessCount": 4,
+      "lastAccessed": 1782134126030,
+      "type": "file"
+    },
+    {
+      "path": "claude.ipynb",
+      "accessCount": 3,
+      "lastAccessed": 1782654686352,
+      "type": "file"
+    },
+    {
+      "path": "Part0-실리콘밸리_엔지니어의_하루\\Ch02-AI_Native_엔지니어로_일하기\\exercises\\templates\\habit-tracker.md",
+      "accessCount": 2,
+      "lastAccessed": 1782134198868,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 2,
+      "lastAccessed": 1782654651560,
+      "type": "directory"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1782219374356,
+      "type": "file"
+    },
+    {
+      "path": "Part1-Claude_Code_마스터하기\\Ch01-Claude_Code_딥다이브\\exercises\\templates\\CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1782643254129,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1782649285979,
+      "type": "file"
+    },
+    {
+      "path": ".env",
+      "accessCount": 1,
+      "lastAccessed": 1782654657288,
+      "type": "file"
+    },
+    {
+      "path": ".vscode\\settings.json",
+      "accessCount": 1,
+      "lastAccessed": 1782654862473,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
